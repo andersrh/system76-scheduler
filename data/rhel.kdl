@@ -14,15 +14,15 @@ assignments {
 	}
 
 	games {
-		vrcompositor
-		vrdashboard
-		vrmonitor
-		vrserver
 		include descends="heroic"
 		include descends="itch"
 		include descends="lutris"
 		include descends="pressure-vessel-adverb"
 		include descends="steam"
+		vrcompositor
+		vrdashboard
+		vrmonitor
+		vrserver
 	}
 
 	games-background {
@@ -63,6 +63,7 @@ assignments {
 		dpkg
 		flatpak
 		fwupd
+		ostree
 		packagekitd
 		pacman
 		paru
