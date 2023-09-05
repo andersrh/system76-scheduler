@@ -87,6 +87,7 @@ assignments {
 		cargo
 		clang
 		cmake
+		compsize
 		cpp
 		duperemove
 		FAHClient
