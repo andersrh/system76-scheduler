@@ -83,6 +83,8 @@ process-scheduler enable=true {
         chrt
         dbus
         dbus-broker
+        fig
+        fig_desktop
         gamemoderun
         ionice
         nice
