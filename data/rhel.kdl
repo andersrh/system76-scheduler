@@ -27,6 +27,7 @@ assignments {
 
 	games-background {
 		discord
+		discover-overlay
 		heroic
 		itch
 		lutris
