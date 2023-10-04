@@ -86,8 +86,11 @@ process-scheduler enable=true {
         fig
         fig_desktop
         gamemoderun
+        input-remapper-service
         ionice
         nice
+        otd-daemon
+        oversteer
         rtkit-daemon
         systemd
         taskset
