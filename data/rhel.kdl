@@ -60,10 +60,15 @@ assignments {
 		include name="rpm-*"
 		apk
 		apt
+		brew
 		dnf
 		dpkg
 		flatpak
+		fleek
 		fwupd
+		nix
+		nix-env
+		nix-channel
 		ostree
 		packagekitd
 		pacman
