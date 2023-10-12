@@ -78,6 +78,7 @@ process-scheduler enable=true {
         include descends="gamemoderun"
         include descends="ionice"
         include descends="nice"
+        include descends="PluginLoader"
         include descends="taskset"
         include descends="schedtool"
         chrt
@@ -91,6 +92,7 @@ process-scheduler enable=true {
         nice
         otd-daemon
         oversteer
+        PluginLoader
         rtkit-daemon
         systemd
         taskset
