@@ -87,6 +87,7 @@ process-scheduler enable=true {
         fig
         fig_desktop
         gamemoderun
+        gamescope
         input-remapper-service
         ionice
         nice
