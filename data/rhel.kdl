@@ -37,7 +37,6 @@ assignments {
 
 	desktop-environment {
 		cosmic-comp
-		gamescope
 		gnome-shell
 		Hyprland
 		i3wm
