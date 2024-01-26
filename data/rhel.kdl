@@ -73,6 +73,7 @@ assignments {
 		pacman
 		paru
 		rpm
+		topgrade
 		ublue-update
 		update-initramfs
 		yay
