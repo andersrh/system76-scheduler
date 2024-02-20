@@ -67,6 +67,7 @@ assignments {
 		nix
 		nix-env
 		nix-channel
+		nix-daemon
 		ostree
 		packagekitd
 		pacman
