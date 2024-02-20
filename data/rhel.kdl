@@ -27,8 +27,6 @@ assignments {
 	}
 
 	games-background {
-		discord
-		discover-overlay
 		heroic
 		itch
 		lutris
@@ -80,6 +78,8 @@ assignments {
 		yay
 		yum
 		zypper
+		rpm-ostree
+		skopeo
 	}
 
 	batch {
