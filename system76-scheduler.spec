@@ -4,7 +4,7 @@ Release:        1%{?dist}
 Summary:        Oneshot service to tweak the CFS scheduler on boot. Uses settings from the TKG kernel by default.
 
 License:        MPLv2.0
-URL:            https://github.com/KyleGospo/system76-scheduler
+URL:            https://github.com/andersrh/system76-scheduler
 
 VCS:            {{{ git_dir_vcs }}}
 Source:         {{{ git_dir_pack }}}
