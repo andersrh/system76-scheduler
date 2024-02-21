@@ -49,15 +49,16 @@ process-scheduler enable=true {
         games-background nice=0 io="idle"
 	
 	// Video and audio players
-	video-audio nice=-1 io=(best-effort)0
+	video-audio nice=-1 io=(realtime)3
 
         // Desktop environments
         desktop-environment nice=-6 sched=(fifo)40 io=(realtime)1
 
-	desktop-background nice=-3 io=(realtime)3
+	desktop-background nice=-6 sched=(fifo)30 io=(realtime)2
+//nice=-3 io=(best-effort)0
 
         // Foreground process profile
-        foreground nice=-4 io=(realtime)2
+        foreground nice=-4 io=(realtime)4
 
         // Background process profile
         background nice=6 io="idle"
