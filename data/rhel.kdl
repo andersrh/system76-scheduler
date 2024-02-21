@@ -47,6 +47,10 @@ assignments {
 		Xorg
 	}
 
+        desktop-background {
+                plasmashell
+        }
+
 	session-services {
 		include parent="gnome-session-binary"
 		include parent="gvfsd"
@@ -81,6 +85,11 @@ assignments {
 		zypper
 		rpm-ostree
 		skopeo
+	}
+
+	video-audio {
+		haruna
+		vlc
 	}
 
 	batch {
@@ -121,6 +130,11 @@ assignments {
 		tracker-miner-fs-3
 		unrar
 		zip
+		uksmd
+		appimagelauncherd
+		supergfxd
+		baloo_file
+		baloorunner
 	}
 }
 
