@@ -15,25 +15,18 @@ assignments {
 	}
 
 	games {
-		include descends="heroic"
-		include descends="itch"
-		include descends="lutris"
-		include descends="pressure-vessel-adverb"
-		include descends="steam"
+		lutris
+		steam
+		heroic
+		itch
 		vrcompositor
 		vrdashboard
 		vrmonitor
 		vrserver
-	}
-
-	games-background {
-		discord
-		discover-overlay
-		heroic
-		itch
-		lutris
-		steam
-		steamwebhelper
+		include descends="steam"
+		include descends="lutris"
+		include descends="heroic"
+		include descends="itch"
 	}
 
 	desktop-environment {
