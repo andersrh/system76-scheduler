@@ -51,6 +51,7 @@ assignments {
 
 	background {
 		steamwebhelper
+		vrwebhelper
 	}
 
 	package-manager {
