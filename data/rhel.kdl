@@ -36,6 +36,7 @@ assignments {
 		i3wm
 		kwin
 		kwin_wayland
+		kwin_x11
 		opengamepadui
 		sway
 		surfaceflinger
@@ -45,6 +46,11 @@ assignments {
 	session-services {
 		include parent="gnome-session-binary"
 		include parent="gvfsd"
+		include parent="gamescope-session-plus"
+	}
+
+	background {
+		steamwebhelper
 	}
 
 	package-manager {
