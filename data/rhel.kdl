@@ -8,7 +8,6 @@ assignments {
 		obs
 		sunshine
 		teams
-		wireplumber
 		zoom
 		bitwig-studio
 		include name="Bitwig*"
